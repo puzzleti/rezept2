@@ -8,6 +8,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeDetailComponent implements OnInit {
 
+  isGood = false;
+
   @Input() selectedRecipe: Recipe;
 
   constructor() { }
